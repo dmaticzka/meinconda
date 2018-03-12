@@ -1,0 +1,18 @@
+# rstudio-server conda package built by cannibalizing RedHat/CentOS rpm
+package:
+  name: rstudio-server-cos
+  version: "1.1.423"
+
+source: 
+  fn: rstudio-server-rhel-1.1.423-x86_64.rpm
+  url: https://download2.rstudio.org/rstudio-server-rhel-1.1.423-x86_64.rpm
+  md5: 0b5d3d0322edb2207c0b6224211510ac
+
+requirements:
+  run:
+    rstudio
+
+about:
+  home: https://www.rstudio.com/
+  license: GNU Affero General Public License
+  summary: RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.
